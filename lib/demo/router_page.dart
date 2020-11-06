@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:pro_flutter/demo/base_widget_demo/components_demo.dart';
-import 'package:pro_flutter/demo/flare_demo/flare_demo.dart';
-import 'package:pro_flutter/demo/provider_demo/provider_demo.dart';
-import 'package:pro_flutter/demo/stream_demo/stream_demo.dart';
+import 'package:flutter_pro/demo/base_widget_demo/components_demo.dart';
+import 'package:flutter_pro/demo/flare_demo/flare_demo.dart';
+import 'package:flutter_pro/demo/provider_demo/provider_demo.dart';
+import 'package:flutter_pro/demo/stream_demo/stream_demo.dart';
 
 class RouterPage extends StatelessWidget {
   @override

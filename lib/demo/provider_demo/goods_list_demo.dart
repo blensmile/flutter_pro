@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:pro_flutter/model/goods_list_model.dart';
+import 'package:flutter_pro/model/goods_list_model.dart';
 import 'package:provider/provider.dart';
 import 'package:toast/toast.dart';
 

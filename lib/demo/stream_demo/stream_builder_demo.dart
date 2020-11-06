@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:pro_flutter/demo/stream_demo/stream_demo_event.dart';
-import 'package:pro_flutter/demo/stream_demo/stream_demo_model.dart';
-import 'package:pro_flutter/demo/stream_demo/stream_demo_state.dart';
+import 'stream_demo_event.dart';
+import 'stream_demo_model.dart';
+import 'stream_demo_state.dart';
 
 class StreamBuilderDemo extends StatefulWidget {
   @override

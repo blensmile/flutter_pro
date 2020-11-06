@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:pro_flutter/model/counter_model.dart';
+import 'package:flutter_pro/model/counter_model.dart';
 import 'package:provider/provider.dart';
 
 class CounterPage extends StatelessWidget {

@@ -1,8 +1,9 @@
 import 'dart:async';
 import 'dart:math';
 
-import 'package:pro_flutter/demo/stream_demo/stream_demo_event.dart';
-import 'package:pro_flutter/demo/stream_demo/stream_demo_state.dart';
+import 'package:flutter_pro/demo/stream_demo/stream_demo_event.dart';
+import 'package:flutter_pro/demo/stream_demo/stream_demo_state.dart';
+
 
 
 enum StreamViewState { Busy, DataRetrieved, NoData }

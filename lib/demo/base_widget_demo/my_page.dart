@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:pro_flutter/demo/base_widget_demo/forms_demo.dart';
-import 'package:pro_flutter/demo/flare_demo/flare_sign_in_demo.dart';
+import 'package:flutter_pro/demo/base_widget_demo/forms_demo.dart';
+import 'package:flutter_pro/demo/flare_demo/flare_sign_in_demo.dart';
 
 class MyPage extends StatefulWidget {
   @override

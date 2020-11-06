@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:pro_flutter/model/post.dart';
+import 'package:flutter_pro/model/post.dart';
 
 class PostDataSource extends DataTableSource {
   final List<Post> _posts = posts;

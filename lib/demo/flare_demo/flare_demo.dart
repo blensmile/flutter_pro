@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:pro_flutter/demo/flare_demo/flare_button_demo.dart';
-import 'package:pro_flutter/demo/flare_demo/flare_sign_in_demo.dart';
+import 'package:flutter_pro/demo/flare_demo/flare_button_demo.dart';
+import 'package:flutter_pro/demo/flare_demo/flare_sign_in_demo.dart';
 
 import 'flare_sidebar_menu_demo.dart';
 

@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 import 'package:flutter/services.dart';
-import 'package:pro_flutter/demo/base_widget_demo/my_page.dart';
-import 'package:pro_flutter/model/counter_model.dart';
+import 'demo/base_widget_demo/awsome_demo.dart';
+import 'demo/base_widget_demo/my_page.dart';
+import 'model/counter_model.dart';
 import 'package:provider/provider.dart';
 import 'demo/base_widget_demo/basic_demo.dart';
 import 'demo/base_widget_demo/components_demo.dart';
@@ -16,6 +17,7 @@ import 'demo/base_widget_demo/sliver_demo.dart';
 import 'demo/base_widget_demo/listview_demo.dart';
 import 'demo/base_widget_demo/card_demo.dart';
 import 'demo/router_page.dart';
+import 'model/counter_model.dart';
 
 void main() {
   debugPaintSizeEnabled = false; //显示边界布局
@@ -46,7 +48,7 @@ class App extends StatelessWidget {
       initialRoute: '/',
       routes: {
         '/': (context) => HomePage(),
-        '/about': (context) => Page(title: 'About', ),
+        // '/about': (context) => Page(title: 'About', ),
         '/form': (context) => FormsDemo(),
         '/components': (context) => ComponentsDome(),
       },
@@ -77,7 +79,7 @@ class _HomePageState extends State < HomePage > {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 4,
+      length: 5,
       child: Scaffold(
         backgroundColor: Colors.grey[100],
         appBar: AppBar(
@@ -135,6 +137,7 @@ class _HomePageState extends State < HomePage > {
               Tab(icon: Icon(Icons.spa)),
               Tab(icon: Icon(Icons.star)),
               Tab(icon: Icon(Icons.apps)),
+              Tab(icon: Icon(Icons.android)),
             ],
           );
     }else{
@@ -153,6 +156,7 @@ class _HomePageState extends State < HomePage > {
             // Icon(Icons.star, size: 126.0, color: Colors.black12,),
             LayoutDemo(),
             ViewDemo(),
+            AwsomeDemo(),
           ],
         );
         break;

@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:pro_flutter/demo/base_widget_demo/paginated_table_demo.dart';
-import 'package:pro_flutter/demo/base_widget_demo/popup_menu_button_demo.dart';
-import 'package:pro_flutter/demo/base_widget_demo/simple_dialog_demo.dart';
-import 'package:pro_flutter/demo/base_widget_demo/snack_bar_demo.dart';
-import 'package:pro_flutter/demo/base_widget_demo/stepper_demo.dart';
+import 'package:flutter_pro/demo/base_widget_demo/paginated_table_demo.dart';
+import 'package:flutter_pro/demo/base_widget_demo/popup_menu_button_demo.dart';
+import 'package:flutter_pro/demo/base_widget_demo/simple_dialog_demo.dart';
+import 'package:flutter_pro/demo/base_widget_demo/snack_bar_demo.dart';
+import 'package:flutter_pro/demo/base_widget_demo/stepper_demo.dart';
 
 import 'alert_dialog_demo.dart';
 import 'bottom_sheet_demo.dart';
