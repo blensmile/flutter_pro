@@ -24,8 +24,8 @@ class _DemoSliverAppBarAdvanceState extends State<DemoSliverAppBarAdvance>
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      body: CustomScrollView(
+    return /*Scaffold(
+      body:*/ CustomScrollView(
         scrollDirection: Axis.vertical, // 默认 Axis.vertical 还有 Axis.horizontal
         slivers: <Widget>[
           // 给 CustomScrollView 增加 SliverAppBar
@@ -110,7 +110,7 @@ class _DemoSliverAppBarAdvanceState extends State<DemoSliverAppBarAdvance>
             ),
           )
         ],
-      ),
+      // ),
     );
   }
 }

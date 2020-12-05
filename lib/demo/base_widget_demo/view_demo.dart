@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_pro/awsome/demo_inherited_widget.dart';
 import 'package:flutter_pro/awsome/state/demo_state_provider.dart';
+import 'package:flutter_pro/views/clock.dart';
+import 'package:flutter_pro/views/thermometer.dart';
 import '../../model/post.dart';
 import 'package:flutter_pro/awsome/demo_backdrop_filter.dart';
 import 'package:flutter_pro/awsome/demo_bottom_navigation_bar.dart';
@@ -217,6 +219,14 @@ class AwsomeBuildDemo extends StatelessWidget {
           ClickButton(
             text: "Custom Time Picker",
             targetPage: DemoCustomTimePicker(),
+          ),
+          ClickButton(
+            text: "Clock widget",
+            targetPage: ClockPage(),
+          ),
+          ClickButton(
+            text: "Thermometer",
+            targetPage: ThermometerPage( ),
           ),
           Title(text: "状态管理"),
           ClickButton(
